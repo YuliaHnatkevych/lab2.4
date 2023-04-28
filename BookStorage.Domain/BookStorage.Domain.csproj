@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{335C3F5A-D4C8-42FE-8934-C227236A2DC2}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>BookStorage.Domain</RootNamespace>
+        <AssemblyName>BookStorage.Domain</AssemblyName>
+        <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Convertors\Txt\ETxtConvertor.cs" />
+        <Compile Include="Convertors\Txt\ITxtConvertor.cs" />
+        <Compile Include="Convertors\Txt\PaperTxtConvertor.cs" />
+        <Compile Include="Enums\FactoryType.cs" />
+        <Compile Include="Exceptions\ModelStateException.cs" />
+        <Compile Include="Factories\Abstract\IRepositoryFactory.cs" />
+        <Compile Include="Factories\Concreate\MemoryRepositoryFactory.cs" />
+        <Compile Include="Factories\Concreate\MockRepositoryFactory.cs" />
+        <Compile Include="Factories\Concreate\TxtRepositoryFactory.cs" />
+        <Compile Include="Factories\FactoryProvider.cs" />
+        <Compile Include="Loggers\TxtLogger.cs" />
+        <Compile Include="Models\EBook.cs" />
+        <Compile Include="Models\PaperBook.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Repositories\Abstract\IERepository.cs" />
+        <Compile Include="Repositories\Abstract\IPaperRepository.cs" />
+        <Compile Include="Repositories\Abstract\IRepository.cs" />
+        <Compile Include="Repositories\Concreate\Memory\MemoryERepository.cs" />
+        <Compile Include="Repositories\Concreate\Memory\MemoryPaperRepository.cs" />
+        <Compile Include="Repositories\Concreate\Mock\MockERepository.cs" />
+        <Compile Include="Repositories\Concreate\Mock\MockPaperRepository.cs" />
+        <Compile Include="Repositories\Concreate\Txt\TxtBaseRepository.cs" />
+        <Compile Include="Repositories\Concreate\Txt\TxtERepository.cs" />
+        <Compile Include="Repositories\Concreate\Txt\TxtPaperRepository.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Data\Loggs\loggers.txt" />
+      <Content Include="Data\Txt\ebooks.txt" />
+      <Content Include="Data\Txt\paperbooks.txt" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

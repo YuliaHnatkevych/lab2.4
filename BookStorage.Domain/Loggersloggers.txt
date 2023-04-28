@@ -1,0 +1,6 @@
+13.04.2023 23:48:39 Winforms (Admin) Error: Input string was not in a correct format.
+20.04.2023 17:26:52 Winforms (Admin) Error: Input string was not in a correct format.
+20.04.2023 17:32:11 Winforms (Admin) Error: Input string was not in a correct format.
+20.04.2023 17:39:37 Winforms (Admin) Error: Input string was not in a correct format.
+20.04.2023 19:27:42 Winforms (Admin) Error: Input string was not in a correct format.
+20.04.2023 19:54:44 Winforms (Admin) Error: Input string was not in a correct format.

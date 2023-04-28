@@ -1,0 +1,6 @@
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\bin\Debug\BookStorage.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\bin\Debug\BookStorage.pdb
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\obj\Debug\BookStorage.csproj.AssemblyReference.cache
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\obj\Debug\BookStorage.csproj.CoreCompileInputs.cache
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\obj\Debug\BookStorage.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\BookStorage_\BookStorage\obj\Debug\BookStorage.pdb

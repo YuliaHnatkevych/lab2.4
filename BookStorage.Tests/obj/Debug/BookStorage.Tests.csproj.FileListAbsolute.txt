@@ -1,0 +1,11 @@
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\obj\Debug\BookStorage.Tests.csproj.AssemblyReference.cache
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\obj\Debug\BookStorage.Tests.csproj.CoreCompileInputs.cache
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\BookStorage.Tests.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\BookStorage.Tests.pdb
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\BookStorage.Domain.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\nunit.framework.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\BookStorage.Domain.pdb
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\bin\Debug\nunit.framework.xml
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\obj\Debug\BookStorage.Tests.csproj.CopyComplete
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\obj\Debug\BookStorage.Tests.dll
+C:\Users\gnatk\OneDrive\Desktop\Uni-Programming\2course\Practice\Task_2.4\BookStorage.Tests\obj\Debug\BookStorage.Tests.pdb
